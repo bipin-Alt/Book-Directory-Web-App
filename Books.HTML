@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Directory Project</title>
+    <!--Styling-->
+    <link rel="stylesheet" href="Books.CSS">
+</head>
+<body>
+    <section class="books">
+        <!--title-->
+        <div class="title">
+            <h3>Welcome to the CodeAlt library</h3>
+            <div class="underline"></div>
+        </div>
+     <!--filter buttons-->
+     <div class="btn-container">
+            <button class="filter-btn" data-id="all">All</button>
+            <button class="filter-btn" data-id="freeToRead">Free to read</button>
+            <button class="filter-btn" data-id="novel">Novels</button>
+            <button class="filter-btn"  data-id="popular">Popular</button>
+            <button class="filter-btn" data-id="Biography">Biography</button>
+     </div>
+     <!--book-items-->
+     <div class="section-center">
+        <!--single book-->
+        <article class="book-item">
+            <img src ="https://republicaimg.nagariknewscdn.com/shared/web/uploads/media/SandukRuitPhoto_20190918175341.jpg" alt="sanduk Ruit" class="photo">
+            <div class="item-info">
+                <header>
+                     <a class="link" href="https://www.isaaward.org/wp-content/uploads/2023/02/Final-English-pages.pdf" target="_blank">Sanduk Ruhit</a>
+                </header>
+                <p class="item-text">An inspiring biography of  an ophthalmologist from Nepal who restored the sight of over 180,000 people across Africa and Asia.</p>
+            </div>
+        </article>
+     </div>
+    </section>
+    <!--JavaScript-->
+    <script src="Books.JS"></script>
+</body>
+</html>
